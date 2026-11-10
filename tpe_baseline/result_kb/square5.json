@@ -1,0 +1,33 @@
+{
+  "dataset_name": "square5.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/square5.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.661543907570522,
+      "pipeline": "MeanShift(StandardScaler(matrix, bool_True, bool_False), bool_True, bool_True, max_it_342, band_2_3)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.661543907570522,
+      "pipeline": "MeanShift(StandardScaler(matrix, bool_True, bool_False), bool_True, bool_True, max_it_478, band_2_3)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.661543907570522,
+      "pipeline": "MeanShift(StandardScaler(matrix, bool_True, bool_False), bool_True, bool_True, max_it_362, band_2_3)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.661543907570522,
+      "pipeline": "MeanShift(StandardScaler(matrix, bool_True, bool_False), bool_True, bool_True, max_it_476, band_2_3)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.661543907570522,
+      "pipeline": "MeanShift(StandardScaler(KNNImputer(matrix, knn_n_722, weights_uniform), bool_True, bool_False), bool_True, bool_True, max_it_476, band_2_3)"
+    }
+  ],
+  "best_pipeline": "MeanShift(StandardScaler(matrix, bool_True, bool_False), bool_True, bool_True, max_it_342, band_2_3)",
+  "best_ari": 0.661543907570522
+}

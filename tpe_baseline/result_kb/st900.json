@@ -1,0 +1,23 @@
+{
+  "dataset_name": "st900.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/st900.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8245229661628877,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_70, band_1_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8245229661628877,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_420, band_1_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8245229661628877,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_445, band_1_1)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_70, band_1_1)",
+  "best_ari": 0.8245229661628877
+}

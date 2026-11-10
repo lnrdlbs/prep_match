@@ -1,0 +1,13 @@
+{
+  "dataset_name": "banana.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/banana.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "SpectralClustering(matrix, k_2, n_init_23, aff_sc_nearestneighbors, n_neigh_19, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_2, n_init_23, aff_sc_nearestneighbors, n_neigh_19, labels_discretize)",
+  "best_ari": 1.0
+}

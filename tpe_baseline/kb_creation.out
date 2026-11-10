@@ -1,0 +1,13 @@
+/home/ubuntu/miniconda3/envs/tpe/lib/python3.12/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+Skipping dermatology.csv: reserved for online-phase evaluation (excluded via --exclude-dir).
+/home/ubuntu/miniconda3/envs/tpe/lib/python3.12/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+Skipping wdbc.csv: reserved for online-phase evaluation (excluded via --exclude-dir).
+/home/ubuntu/miniconda3/envs/tpe/lib/python3.12/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/home/ubuntu/miniconda3/envs/tpe/lib/python3.12/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+Excluding 35 dataset name(s) found in: ['/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/online_phase', '/home/ubuntu/tpe_autoclust_prototype/online_phase_prep4clust', 'online_phase_prep4clust']
+
+knowledge_base with 113 dataset(s) written to: /home/ubuntu/tpe_autoclust_prototype/knowledge_base.json

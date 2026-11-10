@@ -1,0 +1,28 @@
+{
+  "dataset_name": "s-set3.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/s-set3.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 2.3167413921800657e-05,
+      "pipeline": "AffinityPropagation(matrix, max_it_446, conv_it_28, damping_0_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 8.341500432370592e-06,
+      "pipeline": "KMeans(matrix, k_29, init_random, max_it_284, n_init_29, alg_km_elkan, tol_1e_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 7.264536061936964e-06,
+      "pipeline": "KMeans(matrix, k_38, init_k_meansplusplus, max_it_307, n_init_21, alg_km_auto, tol_1e_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 6.416675906679408e-06,
+      "pipeline": "AgglomerativeClustering(matrix, k_37, aff_ac_l2, link_ward, tree_auto)"
+    }
+  ],
+  "best_pipeline": "AffinityPropagation(matrix, max_it_446, conv_it_28, damping_0_5)",
+  "best_ari": 2.3167413921800657e-05
+}

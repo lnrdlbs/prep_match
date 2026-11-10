@@ -1,0 +1,33 @@
+{
+  "dataset_name": "threenorm.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/threenorm.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.43503461385885656,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_205, band_1_9)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.43503461385885656,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_149, band_1_9)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.43503461385885656,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_466, band_1_9)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.43503461385885656,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_466, band_1_9)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.43503461385885656,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_92, band_1_9)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_205, band_1_9)",
+  "best_ari": 0.43503461385885656
+}

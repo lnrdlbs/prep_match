@@ -1,0 +1,33 @@
+{
+  "dataset_name": "disk-3000n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-3000n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.5774174469193651,
+      "pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_euclidean, alg_db_balltree, leaf_29)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.5774174469193651,
+      "pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_euclidean, alg_db_auto, leaf_30)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.5774174469193651,
+      "pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_euclidean, alg_db_balltree, leaf_30)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.5774174469193651,
+      "pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_l2, alg_db_balltree, leaf_30)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.5774174469193651,
+      "pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_l2, alg_db_balltree, leaf_10)"
+    }
+  ],
+  "best_pipeline": "DBSCAN(matrix, eps_0_5, min_samples_13, metric_db_euclidean, alg_db_balltree, leaf_29)",
+  "best_ari": 0.5774174469193651
+}

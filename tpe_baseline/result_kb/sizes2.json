@@ -1,0 +1,33 @@
+{
+  "dataset_name": "sizes2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/sizes2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9755022606168217,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_4, n_init_28, aff_sc_rbf, n_neigh_33, labels_discretize)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9755022606168217,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_4, n_init_28, aff_sc_rbf, n_neigh_10, labels_discretize)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9755022606168217,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_4, n_init_2, aff_sc_rbf, n_neigh_10, labels_discretize)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9755022606168217,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_4, n_init_9, aff_sc_rbf, n_neigh_10, labels_discretize)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9755022606168217,
+      "pipeline": "SpectralClustering(KNNImputer(StandardScaler(matrix, bool_True, bool_True), knn_n_571, weights_uniform), k_4, n_init_2, aff_sc_rbf, n_neigh_10, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_4, n_init_28, aff_sc_rbf, n_neigh_33, labels_discretize)",
+  "best_ari": 0.9755022606168217
+}

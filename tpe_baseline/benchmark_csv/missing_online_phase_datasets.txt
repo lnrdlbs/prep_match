@@ -1,0 +1,7 @@
+detection-of-IoT
+KDD Cup 1998
+2d-25c-no0
+2d-15c-no0
+2d-40c-no0
+dim032
+dim064

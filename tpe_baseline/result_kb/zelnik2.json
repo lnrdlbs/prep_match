@@ -1,0 +1,33 @@
+{
+  "dataset_name": "zelnik2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/zelnik2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.7233084953600621,
+      "pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_l1, link_ward, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.7233084953600621,
+      "pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_l1, link_ward, tree_auto)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.7233084953600621,
+      "pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_cosine, link_ward, tree_auto)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.7233084953600621,
+      "pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_manhattan, link_ward, tree_auto)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.7233084953600621,
+      "pipeline": "AgglomerativeClustering(KNNImputer(matrix, knn_n_472, weights_uniform), k_10, aff_ac_l1, link_ward, tree_auto)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_l1, link_ward, tree_True)",
+  "best_ari": 0.7233084953600621
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_name": "smile3.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/smile3.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_euclidean, link_single, tree_auto)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9989102178227707,
+      "pipeline": "AgglomerativeClustering(matrix, k_5, aff_ac_l1, link_single, tree_True)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9989102178227707,
+      "pipeline": "AgglomerativeClustering(matrix, k_5, aff_ac_l1, link_single, tree_auto)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9989102178227707,
+      "pipeline": "AgglomerativeClustering(matrix, k_5, aff_ac_l1, link_single, tree_False)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9989102178227707,
+      "pipeline": "AgglomerativeClustering(PCA(matrix, n_components_2), k_5, aff_ac_l1, link_single, tree_auto)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_euclidean, link_single, tree_auto)",
+  "best_ari": 1.0
+}

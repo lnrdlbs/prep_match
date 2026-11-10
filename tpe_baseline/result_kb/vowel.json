@@ -1,0 +1,33 @@
+{
+  "dataset_name": "vowel.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/vowel.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.20793078636720025,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_235, n_init_3, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.20774350814189707,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_235, n_init_3, alg_km_full, tol_1e_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.204587881393811,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_235, n_init_21, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.20447806605354746,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_235, n_init_3, alg_km_auto, tol_1e_5)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.20319686599043005,
+      "pipeline": "KMeans(matrix, k_5, init_random, max_it_316, n_init_5, alg_km_auto, tol_1e_5)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_6, init_random, max_it_235, n_init_3, alg_km_elkan, tol_1e_5)",
+  "best_ari": 0.20793078636720025
+}

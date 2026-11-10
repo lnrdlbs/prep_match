@@ -1,0 +1,23 @@
+{
+  "dataset_name": "engytime.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/engytime.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8543253092639863,
+      "pipeline": "SpectralClustering(matrix, k_2, n_init_17, aff_sc_rbf, n_neigh_4, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8543253092639863,
+      "pipeline": "SpectralClustering(matrix, k_2, n_init_30, aff_sc_rbf, n_neigh_4, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8543253092639863,
+      "pipeline": "SpectralClustering(matrix, k_2, n_init_12, aff_sc_rbf, n_neigh_21, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_2, n_init_17, aff_sc_rbf, n_neigh_4, labels_kmeans)",
+  "best_ari": 0.8543253092639863
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_name": "spherical_6_2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/spherical_6_2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_399, conv_it_17, damping_0_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "DBSCAN(matrix, eps_1_4, min_samples_2, metric_db_l1, alg_db_brute, leaf_49)"
+    },
+    {
+      "rank": 3,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_253, conv_it_7, damping_0_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_316, band_1_8)"
+    },
+    {
+      "rank": 5,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_498, conv_it_30, damping_0_5)"
+    }
+  ],
+  "best_pipeline": "AffinityPropagation(matrix, max_it_399, conv_it_17, damping_0_5)",
+  "best_ari": 1.0
+}

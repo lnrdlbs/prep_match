@@ -1,0 +1,23 @@
+{
+  "dataset_name": "triangle1.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/triangle1.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "DBSCAN(matrix, eps_4_8, min_samples_15, metric_db_manhattan, alg_db_kdtree, leaf_48)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9986671096292323,
+      "pipeline": "DBSCAN(matrix, eps_4_8, min_samples_20, metric_db_manhattan, alg_db_auto, leaf_48)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9986671096292323,
+      "pipeline": "DBSCAN(matrix, eps_4_8, min_samples_20, metric_db_manhattan, alg_db_kdtree, leaf_48)"
+    }
+  ],
+  "best_pipeline": "DBSCAN(matrix, eps_4_8, min_samples_15, metric_db_manhattan, alg_db_kdtree, leaf_48)",
+  "best_ari": 1.0
+}

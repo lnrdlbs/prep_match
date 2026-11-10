@@ -1,0 +1,33 @@
+{
+  "dataset_name": "wine.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/wine.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9151769627964984,
+      "pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_8), bool_False, bool_True), k_3, init_k_meansplusplus, max_it_113, n_init_6, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9151769627964984,
+      "pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_7), bool_False, bool_True), k_3, init_random, max_it_475, n_init_3, alg_km_full, tol_1e_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9148795960669529,
+      "pipeline": "KMeans(StandardScaler(matrix, bool_False, bool_True), k_3, init_random, max_it_261, n_init_2, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9148795960669529,
+      "pipeline": "KMeans(StandardScaler(matrix, bool_False, bool_True), k_3, init_random, max_it_200, n_init_2, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9148795960669529,
+      "pipeline": "KMeans(StandardScaler(matrix, bool_True, bool_True), k_3, init_k_meansplusplus, max_it_113, n_init_6, alg_km_full, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_8), bool_False, bool_True), k_3, init_k_meansplusplus, max_it_113, n_init_6, alg_km_full, tol_1e_1)",
+  "best_ari": 0.9151769627964984
+}

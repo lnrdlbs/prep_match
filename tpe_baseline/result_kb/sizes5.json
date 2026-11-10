@@ -1,0 +1,33 @@
+{
+  "dataset_name": "sizes5.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/sizes5.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9522352561279611,
+      "pipeline": "SpectralClustering(matrix, k_15, n_init_4, aff_sc_rbf, n_neigh_23, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9510317825850653,
+      "pipeline": "AgglomerativeClustering(matrix, k_32, aff_ac_euclidean, link_single, tree_False)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9510317825850653,
+      "pipeline": "AgglomerativeClustering(StandardScaler(matrix, bool_True, bool_True), k_32, aff_ac_euclidean, link_single, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9510317825850653,
+      "pipeline": "AgglomerativeClustering(StandardScaler(matrix, bool_False, bool_True), k_32, aff_ac_euclidean, link_single, tree_False)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9510317825850653,
+      "pipeline": "AgglomerativeClustering(PCA(matrix, n_components_2), k_32, aff_ac_euclidean, link_single, tree_False)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_15, n_init_4, aff_sc_rbf, n_neigh_23, labels_kmeans)",
+  "best_ari": 0.9522352561279611
+}

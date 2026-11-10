@@ -1,0 +1,28 @@
+{
+  "dataset_name": "disk-6000n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-6000n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_manhattan, link_single, tree_auto)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9872714979206998,
+      "pipeline": "AgglomerativeClustering(StandardScaler(matrix, bool_False, bool_True), k_13, aff_ac_manhattan, link_single, tree_auto)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9836475228410189,
+      "pipeline": "AgglomerativeClustering(matrix, k_13, aff_ac_manhattan, link_single, tree_auto)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9836475228410189,
+      "pipeline": "AgglomerativeClustering(matrix, k_13, aff_ac_manhattan, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_manhattan, link_single, tree_auto)",
+  "best_ari": 1.0
+}

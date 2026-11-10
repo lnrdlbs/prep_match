@@ -1,0 +1,28 @@
+{
+  "dataset_name": "zelnik1.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/zelnik1.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.5864242690036738,
+      "pipeline": "SpectralClustering(matrix, k_40, n_init_2, aff_sc_rbf, n_neigh_10, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.5860919475747541,
+      "pipeline": "SpectralClustering(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), k_40, n_init_2, aff_sc_rbf, n_neigh_3, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.5859257667750387,
+      "pipeline": "SpectralClustering(matrix, k_40, n_init_2, aff_sc_rbf, n_neigh_3, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.5859257667750387,
+      "pipeline": "SpectralClustering(matrix, k_40, n_init_2, aff_sc_rbf, n_neigh_19, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_40, n_init_2, aff_sc_rbf, n_neigh_10, labels_kmeans)",
+  "best_ari": 0.5864242690036738
+}

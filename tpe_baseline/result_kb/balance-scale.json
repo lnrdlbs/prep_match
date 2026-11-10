@@ -1,0 +1,33 @@
+{
+  "dataset_name": "balance-scale.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/balance-scale.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.638435154504177,
+      "pipeline": "KMeans(matrix, k_2, init_k_meansplusplus, max_it_53, n_init_3, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.602455771803455,
+      "pipeline": "KMeans(matrix, k_2, init_k_meansplusplus, max_it_473, n_init_3, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.5550450169628687,
+      "pipeline": "KMeans(matrix, k_2, init_k_meansplusplus, max_it_97, n_init_3, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.55431528506988,
+      "pipeline": "KMeans(matrix, k_2, init_random, max_it_169, n_init_3, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.4259008786080502,
+      "pipeline": "KMeans(matrix, k_2, init_k_meansplusplus, max_it_428, n_init_3, alg_km_auto, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_2, init_k_meansplusplus, max_it_53, n_init_3, alg_km_auto, tol_1e_1)",
+  "best_ari": 0.638435154504177
+}

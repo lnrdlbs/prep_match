@@ -1,0 +1,18 @@
+{
+  "dataset_name": "wingnut.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/wingnut.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_manhattan, link_single, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9352931243291992,
+      "pipeline": "AgglomerativeClustering(matrix, k_22, aff_ac_manhattan, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_manhattan, link_single, tree_True)",
+  "best_ari": 1.0
+}

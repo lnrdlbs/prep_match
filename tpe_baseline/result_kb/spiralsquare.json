@@ -1,0 +1,33 @@
+{
+  "dataset_name": "spiralsquare.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/spiralsquare.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9908640909770738,
+      "pipeline": "AgglomerativeClustering(StandardScaler(PCA(matrix, n_components_2), bool_True, bool_True), k_26, aff_ac_l2, link_single, tree_False)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9908640909770738,
+      "pipeline": "AgglomerativeClustering(StandardScaler(PCA(matrix, n_components_2), bool_False, bool_True), k_26, aff_ac_l2, link_single, tree_auto)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9908640909770738,
+      "pipeline": "AgglomerativeClustering(StandardScaler(PCA(matrix, n_components_2), bool_False, bool_True), k_26, aff_ac_l2, link_single, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9908640909770738,
+      "pipeline": "AgglomerativeClustering(StandardScaler(PCA(PCA(matrix, n_components_2), n_components_2), bool_False, bool_True), k_26, aff_ac_l2, link_single, tree_False)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9908640909770738,
+      "pipeline": "AgglomerativeClustering(KNNImputer(StandardScaler(PCA(matrix, n_components_2), bool_False, bool_True), knn_n_245, weights_distance), k_26, aff_ac_l2, link_single, tree_False)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(StandardScaler(PCA(matrix, n_components_2), bool_True, bool_True), k_26, aff_ac_l2, link_single, tree_False)",
+  "best_ari": 0.9908640909770738
+}

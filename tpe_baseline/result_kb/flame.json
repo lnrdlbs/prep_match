@@ -1,0 +1,33 @@
+{
+  "dataset_name": "flame.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/flame.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9118892699616479,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_euclidean, link_single, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9118892699616479,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_euclidean, link_single, tree_auto)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9118892699616479,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_euclidean, link_single, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9118892699616479,
+      "pipeline": "AgglomerativeClustering(KNNImputer(matrix, knn_n_660, weights_uniform), k_12, aff_ac_euclidean, link_single, tree_auto)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9118892699616479,
+      "pipeline": "AgglomerativeClustering(StandardScaler(matrix, bool_False, bool_False), k_12, aff_ac_euclidean, link_single, tree_False)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_euclidean, link_single, tree_True)",
+  "best_ari": 0.9118892699616479
+}

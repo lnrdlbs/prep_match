@@ -1,0 +1,18 @@
+{
+  "dataset_name": "smile2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/smile2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_l1, link_single, tree_auto)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9824556676442788,
+      "pipeline": "AgglomerativeClustering(matrix, k_11, aff_ac_l2, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_l1, link_single, tree_auto)",
+  "best_ari": 1.0
+}

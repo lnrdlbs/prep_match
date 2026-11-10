@@ -1,0 +1,33 @@
+{
+  "dataset_name": "rings.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/rings.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.6775681308039733,
+      "pipeline": "SpectralClustering(PCA(matrix, n_components_2), k_8, n_init_26, aff_sc_rbf, n_neigh_34, labels_discretize)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.674811482300526,
+      "pipeline": "SpectralClustering(matrix, k_8, n_init_26, aff_sc_rbf, n_neigh_9, labels_discretize)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.674811482300526,
+      "pipeline": "SpectralClustering(matrix, k_8, n_init_24, aff_sc_rbf, n_neigh_2, labels_discretize)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.674811482300526,
+      "pipeline": "SpectralClustering(matrix, k_8, n_init_26, aff_sc_rbf, n_neigh_34, labels_discretize)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.674811482300526,
+      "pipeline": "SpectralClustering(SimpleImputer(matrix, strategy_most_frequent), k_8, n_init_28, aff_sc_rbf, n_neigh_16, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(PCA(matrix, n_components_2), k_8, n_init_26, aff_sc_rbf, n_neigh_34, labels_discretize)",
+  "best_ari": 0.6775681308039733
+}

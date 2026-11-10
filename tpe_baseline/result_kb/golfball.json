@@ -1,0 +1,33 @@
+{
+  "dataset_name": "golfball.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/golfball.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "DBSCAN(matrix, eps_7_6, min_samples_5, metric_db_euclidean, alg_db_auto, leaf_4)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "DBSCAN(matrix, eps_25_7, min_samples_10, metric_db_l1, alg_db_brute, leaf_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 1.0,
+      "pipeline": "DBSCAN(matrix, eps_29_7, min_samples_11, metric_db_euclidean, alg_db_auto, leaf_42)"
+    },
+    {
+      "rank": 4,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_246, conv_it_29, damping_0_999)"
+    },
+    {
+      "rank": 5,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_340, conv_it_20, damping_0_999)"
+    }
+  ],
+  "best_pipeline": "DBSCAN(matrix, eps_7_6, min_samples_5, metric_db_euclidean, alg_db_auto, leaf_4)",
+  "best_ari": 1.0
+}

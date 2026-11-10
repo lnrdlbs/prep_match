@@ -1,0 +1,33 @@
+{
+  "dataset_name": "target.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/target.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_190, band_1_4)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_339, band_1_2)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.999634881516244,
+      "pipeline": "DBSCAN(matrix, eps_0_6, min_samples_14, metric_db_l2, alg_db_brute, leaf_15)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8809218275059117,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_117, band_1_5)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.7418829477137483,
+      "pipeline": "AgglomerativeClustering(matrix, k_9, aff_ac_euclidean, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_190, band_1_4)",
+  "best_ari": 1.0
+}

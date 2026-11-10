@@ -1,0 +1,28 @@
+{
+  "dataset_name": "disk-4500n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-4500n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.28155277613241086,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_6, aff_sc_nearestneighbors, n_neigh_21, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.28155277613241086,
+      "pipeline": "SpectralClustering(KNNImputer(matrix, knn_n_523, weights_uniform), k_6, n_init_6, aff_sc_nearestneighbors, n_neigh_21, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.27895415203281265,
+      "pipeline": "SpectralClustering(matrix, k_10, n_init_6, aff_sc_nearestneighbors, n_neigh_4, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.22714163100360488,
+      "pipeline": "SpectralClustering(matrix, k_9, n_init_6, aff_sc_nearestneighbors, n_neigh_4, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_6, n_init_6, aff_sc_nearestneighbors, n_neigh_21, labels_kmeans)",
+  "best_ari": 0.28155277613241086
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_name": "curves2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/curves2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9683353009842092,
+      "pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_False, bool_True), n_components_2), k_7, aff_ac_manhattan, link_single, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9343860154278509,
+      "pipeline": "AgglomerativeClustering(PCA(matrix, n_components_2), k_7, aff_ac_manhattan, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_False, bool_True), n_components_2), k_7, aff_ac_manhattan, link_single, tree_True)",
+  "best_ari": 0.9683353009842092
+}

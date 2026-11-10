@@ -1,0 +1,33 @@
+{
+  "dataset_name": "spherical_4_3.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/spherical_4_3.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_euclidean, link_single, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9768614283820167,
+      "pipeline": "AgglomerativeClustering(matrix, k_10, aff_ac_euclidean, link_single, tree_True)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.933206511354987,
+      "pipeline": "AgglomerativeClustering(matrix, k_5, aff_ac_euclidean, link_ward, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8741012265613985,
+      "pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_euclidean, link_average, tree_auto)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.8185538881309686,
+      "pipeline": "KMeans(matrix, k_6, init_k_meansplusplus, max_it_298, n_init_22, alg_km_elkan, tol_1e_5)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_4, aff_ac_euclidean, link_single, tree_True)",
+  "best_ari": 1.0
+}

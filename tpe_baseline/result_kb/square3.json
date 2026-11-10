@@ -1,0 +1,33 @@
+{
+  "dataset_name": "square3.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/square3.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8713150690445473,
+      "pipeline": "SpectralClustering(matrix, k_4, n_init_12, aff_sc_nearestneighbors, n_neigh_11, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8713150690445473,
+      "pipeline": "SpectralClustering(matrix, k_4, n_init_5, aff_sc_nearestneighbors, n_neigh_11, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8713150690445473,
+      "pipeline": "SpectralClustering(matrix, k_4, n_init_7, aff_sc_nearestneighbors, n_neigh_11, labels_discretize)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8713150690445473,
+      "pipeline": "SpectralClustering(matrix, k_4, n_init_7, aff_sc_nearestneighbors, n_neigh_11, labels_kmeans)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.8713150690445473,
+      "pipeline": "SpectralClustering(matrix, k_4, n_init_8, aff_sc_nearestneighbors, n_neigh_11, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_4, n_init_12, aff_sc_nearestneighbors, n_neigh_11, labels_kmeans)",
+  "best_ari": 0.8713150690445473
+}

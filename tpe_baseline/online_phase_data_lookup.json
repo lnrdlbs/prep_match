@@ -1,0 +1,31 @@
+{
+  "datasets": [
+    "iris",
+    "glass",
+    "ecoli",
+    "iono",
+    "arrhythmia",
+    "tae",
+    "thy",
+    "haberman",
+    "segment",
+    "sonar",
+    "detection-of-IoT",
+    "KDD Cup 1998",
+    "aggregation",
+    "compound",
+    "pathbased",
+    "3-spiral",
+    "jain",
+    "r15",
+    "2d-25c-no0",
+    "2d-15c-no0",
+    "2d-40c-no0",
+    "cluto-t8-8k",
+    "cluto-t7-10k",
+    "dim032",
+    "dim064",
+    "square2",
+    "square4"
+  ]
+}

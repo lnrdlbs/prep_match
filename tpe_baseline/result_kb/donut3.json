@@ -1,0 +1,33 @@
+{
+  "dataset_name": "donut3.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/donut3.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.7995712539163089,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_28, aff_sc_nearestneighbors, n_neigh_6, labels_discretize)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.7995403865196444,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_8, aff_sc_nearestneighbors, n_neigh_8, labels_discretize)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.7995352418954284,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_9, aff_sc_nearestneighbors, n_neigh_26, labels_discretize)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.7995352418954284,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_28, aff_sc_nearestneighbors, n_neigh_26, labels_discretize)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.7995352418954284,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_20, aff_sc_nearestneighbors, n_neigh_26, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_6, n_init_28, aff_sc_nearestneighbors, n_neigh_6, labels_discretize)",
+  "best_ari": 0.7995712539163089
+}

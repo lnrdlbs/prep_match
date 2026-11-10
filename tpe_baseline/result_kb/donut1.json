@@ -1,0 +1,23 @@
+{
+  "dataset_name": "donut1.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/donut1.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_l1, link_single, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9880759218039885,
+      "pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_l1, link_single, tree_False)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9880759218039885,
+      "pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_l1, link_single, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_l1, link_single, tree_True)",
+  "best_ari": 1.0
+}

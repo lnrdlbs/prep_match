@@ -1,0 +1,33 @@
+{
+  "dataset_name": "wisc.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/wisc.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8878674767406582,
+      "pipeline": "DBSCAN(matrix, eps_7_8, min_samples_17, metric_db_manhattan, alg_db_kdtree, leaf_9)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8878674767406582,
+      "pipeline": "DBSCAN(matrix, eps_7_8, min_samples_15, metric_db_l1, alg_db_kdtree, leaf_9)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8878674767406582,
+      "pipeline": "DBSCAN(matrix, eps_7_8, min_samples_16, metric_db_l1, alg_db_kdtree, leaf_9)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8878674767406582,
+      "pipeline": "DBSCAN(matrix, eps_7_8, min_samples_16, metric_db_manhattan, alg_db_kdtree, leaf_9)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.8878674767406582,
+      "pipeline": "DBSCAN(KNNImputer(matrix, knn_n_676, weights_uniform), eps_7_8, min_samples_16, metric_db_l1, alg_db_kdtree, leaf_9)"
+    }
+  ],
+  "best_pipeline": "DBSCAN(matrix, eps_7_8, min_samples_17, metric_db_manhattan, alg_db_kdtree, leaf_9)",
+  "best_ari": 0.8878674767406582
+}

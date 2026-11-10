@@ -1,0 +1,33 @@
+{
+  "dataset_name": "tetra.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/tetra.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "KMeans(matrix, k_4, init_random, max_it_348, n_init_18, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_457, band_1_2)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8394732575525572,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_18, aff_sc_nearestneighbors, n_neigh_9, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8192737624106089,
+      "pipeline": "AgglomerativeClustering(matrix, k_27, aff_ac_manhattan, link_single, tree_False)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.8020670417556827,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_326, band_1_0)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_4, init_random, max_it_348, n_init_18, alg_km_elkan, tol_1e_5)",
+  "best_ari": 1.0
+}

@@ -1,0 +1,6 @@
+# Python 3.12.13
+deap==1.4.4
+networkx==3.6.1
+matplotlib==3.10.9
+scikit-learn==1.8.0  
+pandas==3.0.2

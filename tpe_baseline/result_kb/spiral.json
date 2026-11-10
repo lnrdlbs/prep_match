@@ -1,0 +1,28 @@
+{
+  "dataset_name": "spiral.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/spiral.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_euclidean, link_single, tree_auto)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.998001996003992,
+      "pipeline": "AgglomerativeClustering(matrix, k_3, aff_ac_euclidean, link_single, tree_True)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.998001996003992,
+      "pipeline": "AgglomerativeClustering(matrix, k_3, aff_ac_euclidean, link_single, tree_auto)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.998001996003992,
+      "pipeline": "AgglomerativeClustering(matrix, k_3, aff_ac_euclidean, link_single, tree_False)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_2, aff_ac_euclidean, link_single, tree_auto)",
+  "best_ari": 1.0
+}

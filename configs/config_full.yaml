@@ -1,0 +1,14 @@
+max_cores: 'num_cores'
+seeds: [876]
+strategy: 'exhaustive'
+data:
+  shape: ['blobs']
+  n_samples: [500, 1000,5000]
+  n_clusters: [10,30,50]
+  n_features: [10,30,50] 
+  cluster_std: [3,5,10]
+
+  multiplier_methods: ['None', 'factor', 'exp', 'square']
+  p_outlier: [0,0.1, 0.2, 0.3]
+  p_missing_value: [0, 0.1, 0.2, 0.3]
+

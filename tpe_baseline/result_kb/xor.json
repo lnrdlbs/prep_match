@@ -1,0 +1,33 @@
+{
+  "dataset_name": "xor.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/xor.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.5293537302641106,
+      "pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_3), bool_True, bool_True), k_8, init_k_meansplusplus, max_it_460, n_init_2, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.5286986648791663,
+      "pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_3), bool_True, bool_True), k_8, init_k_meansplusplus, max_it_55, n_init_2, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.5261213065177345,
+      "pipeline": "KMeans(StandardScaler(PCA(KNNImputer(matrix, knn_n_369, weights_distance), n_components_3), bool_True, bool_True), k_8, init_k_meansplusplus, max_it_55, n_init_2, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.5168059610458389,
+      "pipeline": "KMeans(matrix, k_8, init_k_meansplusplus, max_it_55, n_init_2, alg_km_full, tol_1e_5)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.5156635646321687,
+      "pipeline": "KMeans(matrix, k_8, init_random, max_it_55, n_init_2, alg_km_elkan, tol_1e_5)"
+    }
+  ],
+  "best_pipeline": "KMeans(StandardScaler(PCA(matrix, n_components_3), bool_True, bool_True), k_8, init_k_meansplusplus, max_it_460, n_init_2, alg_km_elkan, tol_1e_5)",
+  "best_ari": 0.5293537302641106
+}

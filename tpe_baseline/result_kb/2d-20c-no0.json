@@ -1,0 +1,33 @@
+{
+  "dataset_name": "2d-20c-no0.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/2d-20c-no0.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9914896983677097,
+      "pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_20, labels_discretize)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9914896983677097,
+      "pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_38, labels_discretize)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9914896983677097,
+      "pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_26, labels_discretize)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9914896983677097,
+      "pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_13, labels_discretize)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9914896983677097,
+      "pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_10, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_21, n_init_27, aff_sc_rbf, n_neigh_20, labels_discretize)",
+  "best_ari": 0.9914896983677097
+}

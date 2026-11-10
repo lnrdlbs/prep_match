@@ -1,0 +1,28 @@
+{
+  "dataset_name": "disk-1000n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-1000n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.2703015687401119,
+      "pipeline": "SpectralClustering(KNNImputer(StandardScaler(matrix, bool_True, bool_True), knn_n_317, weights_distance), k_6, n_init_2, aff_sc_nearestneighbors, n_neigh_7, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.2702524617264409,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_2, aff_sc_nearestneighbors, n_neigh_7, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.27020740141967764,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_6, n_init_2, aff_sc_nearestneighbors, n_neigh_7, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.2698662191405547,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_4, aff_sc_nearestneighbors, n_neigh_7, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(KNNImputer(StandardScaler(matrix, bool_True, bool_True), knn_n_317, weights_distance), k_6, n_init_2, aff_sc_nearestneighbors, n_neigh_7, labels_kmeans)",
+  "best_ari": 0.2703015687401119
+}

@@ -1,0 +1,23 @@
+{
+  "dataset_name": "s-set4.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/s-set4.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.00014115958467517115,
+      "pipeline": "AffinityPropagation(matrix, max_it_214, conv_it_16, damping_0_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 2.317834526508013e-05,
+      "pipeline": "KMeans(matrix, k_38, init_random, max_it_229, n_init_21, alg_km_full, tol_1e_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 2.111443699652145e-05,
+      "pipeline": "KMeans(matrix, k_37, init_random, max_it_429, n_init_19, alg_km_elkan, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "AffinityPropagation(matrix, max_it_214, conv_it_16, damping_0_5)",
+  "best_ari": 0.00014115958467517115
+}

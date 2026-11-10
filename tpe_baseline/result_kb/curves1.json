@@ -1,0 +1,33 @@
+{
+  "dataset_name": "curves1.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/curves1.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_81, band_0_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8600643450439809,
+      "pipeline": "AgglomerativeClustering(matrix, k_3, aff_ac_cosine, link_complete, tree_False)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.7496867952894012,
+      "pipeline": "SpectralClustering(matrix, k_3, n_init_20, aff_sc_nearestneighbors, n_neigh_24, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.42740715957301667,
+      "pipeline": "AgglomerativeClustering(matrix, k_36, aff_ac_l1, link_single, tree_True)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.4157901039228222,
+      "pipeline": "SpectralClustering(matrix, k_5, n_init_18, aff_sc_nearestneighbors, n_neigh_8, labels_discretize)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_81, band_0_1)",
+  "best_ari": 1.0
+}

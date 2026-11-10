@@ -1,0 +1,33 @@
+{
+  "dataset_name": "ds4c2sc8.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/ds4c2sc8.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8638580784701736,
+      "pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_92, n_init_21, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.8622643004058678,
+      "pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_408, n_init_24, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.8616109453366005,
+      "pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_353, n_init_24, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.8610178732555264,
+      "pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_60, n_init_29, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.8604350964564436,
+      "pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_353, n_init_12, alg_km_full, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_10, init_k_meansplusplus, max_it_92, n_init_21, alg_km_auto, tol_1e_1)",
+  "best_ari": 0.8638580784701736
+}

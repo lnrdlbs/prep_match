@@ -1,0 +1,33 @@
+{
+  "dataset_name": "dense-disk-5000.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/dense-disk-5000.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.19600096996520133,
+      "pipeline": "SpectralClustering(matrix, k_6, n_init_26, aff_sc_rbf, n_neigh_8, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.14866719460759187,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_403, band_2_4)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.09161105686551621,
+      "pipeline": "KMeans(matrix, k_17, init_random, max_it_200, n_init_25, alg_km_auto, tol_1e_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.08205986964008015,
+      "pipeline": "SpectralClustering(matrix, k_19, n_init_25, aff_sc_rbf, n_neigh_28, labels_kmeans)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.0769665435256966,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_229, band_2_2)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_6, n_init_26, aff_sc_rbf, n_neigh_8, labels_kmeans)",
+  "best_ari": 0.19600096996520133
+}

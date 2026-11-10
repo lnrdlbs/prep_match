@@ -1,0 +1,33 @@
+{
+  "dataset_name": "ds3c3sc6.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/ds3c3sc6.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.6588568004735509,
+      "pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), k_3, aff_ac_l2, link_complete, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.6588568004735509,
+      "pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), k_3, aff_ac_euclidean, link_complete, tree_auto)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.6588568004735509,
+      "pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), k_3, aff_ac_euclidean, link_complete, tree_True)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.6588568004735509,
+      "pipeline": "AgglomerativeClustering(KNNImputer(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), knn_n_962, weights_uniform), k_3, aff_ac_euclidean, link_complete, tree_auto)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.6588568004735509,
+      "pipeline": "AgglomerativeClustering(PCA(KNNImputer(StandardScaler(matrix, bool_True, bool_False), knn_n_240, weights_distance), n_components_2), k_3, aff_ac_euclidean, link_complete, tree_auto)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(PCA(StandardScaler(matrix, bool_True, bool_False), n_components_2), k_3, aff_ac_l2, link_complete, tree_True)",
+  "best_ari": 0.6588568004735509
+}

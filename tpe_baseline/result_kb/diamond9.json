@@ -1,0 +1,23 @@
+{
+  "dataset_name": "diamond9.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/diamond9.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_173, band_1_0)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9996253924631675,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_173, band_1_0)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9996253924631675,
+      "pipeline": "MeanShift(PCA(matrix, n_components_2), bool_False, bool_False, max_it_173, band_1_0)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_173, band_1_0)",
+  "best_ari": 1.0
+}

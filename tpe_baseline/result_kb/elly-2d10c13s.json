@@ -1,0 +1,28 @@
+{
+  "dataset_name": "elly-2d10c13s.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/elly-2d10c13s.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.38617098374590425,
+      "pipeline": "KMeans(StandardScaler(matrix, bool_False, bool_True), k_13, init_random, max_it_349, n_init_20, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.3859817947235315,
+      "pipeline": "KMeans(StandardScaler(matrix, bool_False, bool_True), k_13, init_k_meansplusplus, max_it_349, n_init_20, alg_km_elkan, tol_1e_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.3859255394590453,
+      "pipeline": "KMeans(matrix, k_13, init_k_meansplusplus, max_it_349, n_init_7, alg_km_elkan, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.3841437084164333,
+      "pipeline": "KMeans(matrix, k_13, init_random, max_it_349, n_init_6, alg_km_elkan, tol_1e_5)"
+    }
+  ],
+  "best_pipeline": "KMeans(StandardScaler(matrix, bool_False, bool_True), k_13, init_random, max_it_349, n_init_20, alg_km_elkan, tol_1e_5)",
+  "best_ari": 0.38617098374590425
+}

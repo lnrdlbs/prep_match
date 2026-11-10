@@ -1,0 +1,33 @@
+{
+  "dataset_name": "fourty.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/fourty.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_56, band_1_5)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_144, band_2_0)"
+    },
+    {
+      "rank": 3,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_True, bool_False, max_it_407, band_2_4)"
+    },
+    {
+      "rank": 4,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_True, max_it_180, band_1_7)"
+    },
+    {
+      "rank": 5,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_False, bool_False, max_it_254, band_1_9)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_56, band_1_5)",
+  "best_ari": 1.0
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "dpb.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/dpb.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.8072608424876413,
+      "pipeline": "AgglomerativeClustering(matrix, k_13, aff_ac_euclidean, link_average, tree_False)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_13, aff_ac_euclidean, link_average, tree_False)",
+  "best_ari": 0.8072608424876413
+}

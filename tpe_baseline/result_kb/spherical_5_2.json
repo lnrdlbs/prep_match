@@ -1,0 +1,33 @@
+{
+  "dataset_name": "spherical_5_2.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/spherical_5_2.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "KMeans(matrix, k_5, init_random, max_it_418, n_init_2, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9800849096794096,
+      "pipeline": "KMeans(matrix, k_5, init_random, max_it_253, n_init_2, alg_km_elkan, tol_1e_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9799796012572286,
+      "pipeline": "KMeans(matrix, k_5, init_random, max_it_418, n_init_2, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9799796012572286,
+      "pipeline": "KMeans(matrix, k_5, init_k_meansplusplus, max_it_253, n_init_2, alg_km_elkan, tol_1e_1)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9799796012572286,
+      "pipeline": "KMeans(matrix, k_5, init_k_meansplusplus, max_it_351, n_init_2, alg_km_elkan, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_5, init_random, max_it_418, n_init_2, alg_km_auto, tol_1e_1)",
+  "best_ari": 1.0
+}

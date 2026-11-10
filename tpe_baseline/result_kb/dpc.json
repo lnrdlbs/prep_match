@@ -1,0 +1,33 @@
+{
+  "dataset_name": "dpc.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/dpc.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.893048450769243,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_l2, link_average, tree_auto)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.893048450769243,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_l2, link_average, tree_False)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.893048450769243,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_euclidean, link_average, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.893048450769243,
+      "pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_l2, link_average, tree_True)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.893048450769243,
+      "pipeline": "AgglomerativeClustering(KNNImputer(matrix, knn_n_696, weights_uniform), k_12, aff_ac_l2, link_average, tree_False)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_12, aff_ac_l2, link_average, tree_auto)",
+  "best_ari": 0.893048450769243
+}

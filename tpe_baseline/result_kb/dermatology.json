@@ -1,0 +1,33 @@
+{
+  "dataset_name": "dermatology.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/dermatology.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9629834469965801,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_341, n_init_15, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9625696696373314,
+      "pipeline": "KMeans(matrix, k_6, init_k_meansplusplus, max_it_287, n_init_15, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9617526260176292,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_287, n_init_15, alg_km_auto, tol_1e_1)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9574187796863762,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_305, n_init_8, alg_km_full, tol_1e_1)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9574187796863762,
+      "pipeline": "KMeans(matrix, k_6, init_random, max_it_305, n_init_24, alg_km_full, tol_1e_1)"
+    }
+  ],
+  "best_pipeline": "KMeans(matrix, k_6, init_random, max_it_341, n_init_15, alg_km_auto, tol_1e_1)",
+  "best_ari": 0.9629834469965801
+}

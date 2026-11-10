@@ -1,0 +1,33 @@
+{
+  "dataset_name": "aml28.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/aml28.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9988103622447686,
+      "pipeline": "DBSCAN(matrix, eps_6_7, min_samples_2, metric_db_l2, alg_db_kdtree, leaf_21)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9988103622447686,
+      "pipeline": "DBSCAN(matrix, eps_6_7, min_samples_2, metric_db_euclidean, alg_db_kdtree, leaf_21)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9988103622447686,
+      "pipeline": "DBSCAN(matrix, eps_6_7, min_samples_2, metric_db_l2, alg_db_balltree, leaf_21)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9988103622447686,
+      "pipeline": "DBSCAN(KNNImputer(matrix, knn_n_451, weights_uniform), eps_6_7, min_samples_2, metric_db_l2, alg_db_kdtree, leaf_21)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9988103622447686,
+      "pipeline": "DBSCAN(KNNImputer(matrix, knn_n_480, weights_distance), eps_6_7, min_samples_2, metric_db_l2, alg_db_kdtree, leaf_21)"
+    }
+  ],
+  "best_pipeline": "DBSCAN(matrix, eps_6_7, min_samples_2, metric_db_l2, alg_db_kdtree, leaf_21)",
+  "best_ari": 0.9988103622447686
+}

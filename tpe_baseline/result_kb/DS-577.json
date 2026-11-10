@@ -1,0 +1,33 @@
+{
+  "dataset_name": "DS-577.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/DS-577.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.9897283345048707,
+      "pipeline": "SpectralClustering(matrix, k_3, n_init_7, aff_sc_nearestneighbors, n_neigh_5, labels_kmeans)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.9897283345048707,
+      "pipeline": "SpectralClustering(matrix, k_3, n_init_7, aff_sc_nearestneighbors, n_neigh_5, labels_discretize)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.9897283345048707,
+      "pipeline": "SpectralClustering(matrix, k_3, n_init_3, aff_sc_nearestneighbors, n_neigh_5, labels_kmeans)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.9897283345048707,
+      "pipeline": "SpectralClustering(StandardScaler(matrix, bool_True, bool_True), k_3, n_init_7, aff_sc_nearestneighbors, n_neigh_5, labels_kmeans)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.9897283345048707,
+      "pipeline": "SpectralClustering(SimpleImputer(matrix, strategy_median), k_3, n_init_7, aff_sc_nearestneighbors, n_neigh_5, labels_kmeans)"
+    }
+  ],
+  "best_pipeline": "SpectralClustering(matrix, k_3, n_init_7, aff_sc_nearestneighbors, n_neigh_5, labels_kmeans)",
+  "best_ari": 0.9897283345048707
+}

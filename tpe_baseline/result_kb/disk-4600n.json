@@ -1,0 +1,18 @@
+{
+  "dataset_name": "disk-4600n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-4600n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.06459230755421463,
+      "pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_euclidean, link_complete, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.06459230755421463,
+      "pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_l2, link_complete, tree_True)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_7, aff_ac_euclidean, link_complete, tree_True)",
+  "best_ari": 0.06459230755421463
+}

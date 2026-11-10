@@ -1,0 +1,33 @@
+{
+  "dataset_name": "hypercube.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/hypercube.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 1.0,
+      "pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_94, band_0_2)"
+    },
+    {
+      "rank": 2,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_467, conv_it_12, damping_0_5)"
+    },
+    {
+      "rank": 3,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_8, aff_ac_l1, link_average, tree_False)"
+    },
+    {
+      "rank": 4,
+      "ari": 1.0,
+      "pipeline": "AgglomerativeClustering(matrix, k_8, aff_ac_manhattan, link_complete, tree_False)"
+    },
+    {
+      "rank": 5,
+      "ari": 1.0,
+      "pipeline": "AffinityPropagation(matrix, max_it_440, conv_it_25, damping_0_5)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_94, band_0_2)",
+  "best_ari": 1.0
+}

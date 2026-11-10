@@ -1,0 +1,13 @@
+{
+  "dataset_name": "impossible.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/impossible.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.6272613516697587,
+      "pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_470, band_1_8)"
+    }
+  ],
+  "best_pipeline": "MeanShift(matrix, bool_True, bool_True, max_it_470, band_1_8)",
+  "best_ari": 0.6272613516697587
+}

@@ -1,0 +1,33 @@
+{
+  "dataset_name": "disk-5000n.csv",
+  "dataset_path": "/home/ubuntu/tpe_autoclust_prototype/benchmark_csv/offline_phase/disk-5000n.csv",
+  "hall_of_fame": [
+    {
+      "rank": 1,
+      "ari": 0.07261311285697257,
+      "pipeline": "AgglomerativeClustering(matrix, k_11, aff_ac_l1, link_average, tree_True)"
+    },
+    {
+      "rank": 2,
+      "ari": 0.0715549024142008,
+      "pipeline": "SpectralClustering(matrix, k_12, n_init_20, aff_sc_rbf, n_neigh_17, labels_kmeans)"
+    },
+    {
+      "rank": 3,
+      "ari": 0.06887908631956116,
+      "pipeline": "KMeans(matrix, k_12, init_random, max_it_473, n_init_8, alg_km_full, tol_1e_5)"
+    },
+    {
+      "rank": 4,
+      "ari": 0.059899383397239,
+      "pipeline": "AgglomerativeClustering(matrix, k_15, aff_ac_l1, link_average, tree_True)"
+    },
+    {
+      "rank": 5,
+      "ari": 0.05871107212579475,
+      "pipeline": "KMeans(matrix, k_14, init_k_meansplusplus, max_it_58, n_init_10, alg_km_elkan, tol_1e_5)"
+    }
+  ],
+  "best_pipeline": "AgglomerativeClustering(matrix, k_11, aff_ac_l1, link_average, tree_True)",
+  "best_ari": 0.07261311285697257
+}
