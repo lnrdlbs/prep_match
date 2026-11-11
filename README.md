@@ -31,6 +31,10 @@ PrepMatch consists of several scripts covering data generation, optimization, me
   - Applies random (or semi-guided) search over preprocessing pipelines.
   - Used to compare meta-learning against non-informed search strategies.
 
+- **`tpe_baseline/`**
+  - Our implementation of the TPE-AutoClust baseline (usage in [`tpe_baseline/README.md`](tpe_baseline/README.md)).
+  - The TPE-AutoClust paper leaves several implementation details open. The assumptions we made are documented in [`tpe_baseline/assumptions.md`](tpe_baseline/assumptions.md).
+
 - **`paper_figures/`**
   - Reproduces the figures and tables of the paper's evaluation.
   - Works from precomputed results included in the repository, so no experiments have to be re-run.
