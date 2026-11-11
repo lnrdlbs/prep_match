@@ -1,10 +1,10 @@
-# Prep4Clust
+# PrepMatch
 
-This is the prototypical implementation of the submitted paper Prep4Clust Meta-Learning to Suggest Preprocessing Pipelines for Clustering. In the following we provide an overview of the structure and how to use the parts of Prep4Clust. 
+This is the prototypical implementation of the submitted paper PrepMatch Meta-Learning to Suggest Preprocessing Pipelines for Clustering. In the following we provide an overview of the structure and how to use the parts of PrepMatch. 
 
 ## Overview
 
-Prep4Clust consists of several scripts covering data generation, optimization, meta-learning, and benchmarking:
+PrepMatch consists of several scripts covering data generation, optimization, meta-learning, and benchmarking:
 
 
 - **`create_data.py`**
@@ -22,7 +22,7 @@ Prep4Clust consists of several scripts covering data generation, optimization, m
   - Produces the results that later form the **knowledge base** for meta-learning.
 
 - **`meta-learner.py`**
-  - Application phase of Prep4Clust.
+  - Application phase of PrepMatch.
   - Uses a precomputed knowledge base to suggest preprocessing pipelines for new datasets.
   - Selects pipelines via nearest-neighbor search in meta-feature space.
 
@@ -30,6 +30,10 @@ Prep4Clust consists of several scripts covering data generation, optimization, m
   - Baseline method for benchmarking.
   - Applies random (or semi-guided) search over preprocessing pipelines.
   - Used to compare meta-learning against non-informed search strategies.
+
+- **`paper_figures/`**
+  - Reproduces the figures and tables of the paper's evaluation.
+  - Works from precomputed results included in the repository, so no experiments have to be re-run.
 
 ## Installation
 This project is tested with Python version 3.11.15.
@@ -46,11 +50,11 @@ The script uses only the Python standard library, restores each original file ne
 
 ### Create Conda Env (optional but recommended)
 ```
-conda create -n prep4clust python=3.11.9
+conda create -n prepmatch python=3.11.9
 ```
 
 ```
-conda activate prep4clust
+conda activate prepmatch
 ```
 ### Install Requirements
 
@@ -292,3 +296,42 @@ python ml_random_search.py \
   --strategy help \
   --time_budget 600
   ```
+
+## Paper Figures
+
+The folder `paper_figures/` reproduces the figures and tables of the paper's evaluation from precomputed results, without re-running any experiments.
+
+| Path | Content |
+|------|---------|
+| `paper_figures/export/paper_figures.ipynb` | Notebook that creates all figures and tables. |
+| `paper_figures/export/data/` | Precomputed results read by the notebook (see below). |
+| `paper_figures/export/output/` | Generated figures (`.pdf`) and LaTeX tables (`.tex`). |
+| `paper_figures/build_data.py` | Script that was used to extract `export/data/` from the raw experiment outputs (see note below). |
+
+The precomputed results in `paper_figures/export/data/` are:
+
+- `prepmatch_kmeans/`, `prepmatch_dbscan/`, `prepmatch_hdbscan/`, `prepmatch_agglomerative/`: results of `meta-learner.py` (`k = 23`, `p = 5`) on the real-world datasets for each clustering algorithm
+- `kb_results.csv`: optimization results that form the knowledge base
+- `random_search.csv`: results of `ml_random_search.py`
+- `random_baselines.csv`: random pipeline baselines
+- `tpe_autoclust.csv`, `tpot_clustering.csv`: results of the TPE-AutoClust and TPOT-Clustering baselines
+- `datasets.csv`: number of samples per real-world dataset
+
+### Generate the Figures
+
+```bash
+cd paper_figures/export
+pip install -r requirements.txt   # not needed if the main requirements.txt is already installed
+jupyter nbconvert --to notebook --execute --inplace paper_figures.ipynb
+```
+
+The notebook writes these files to `paper_figures/export/output/`:
+
+| File | Content |
+|------|---------|
+| `all_algorithms_median_bars4.pdf` | Median ARI for four clustering algorithms |
+| `k_p_comb3.pdf` | Median ARI for different `k` (neighbors) and `p` (pipelines per neighbor) |
+| `baselines_small_5.pdf` | ARI distribution on the synthetic datasets |
+| `tab_baselines.tex` | ARI comparison of PrepMatch and the baselines |
+| `tab_ppevalgroups.tex` | ARI change per data characteristic |
+

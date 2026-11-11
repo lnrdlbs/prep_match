@@ -1,0 +1,17 @@
+dataset,n_samples
+banknote,1372
+dermatology,366
+diagnosis,120
+ecoli,336
+f_mnist_10k,10000
+f_mnist_20k,20000
+frogs,7195
+glass,214
+ionosphere,351
+iris,150
+letter,20000
+obesity,2111
+pendigits,10992
+segment,2310
+usps,9298
+wdbc,569
